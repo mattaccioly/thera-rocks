@@ -145,3 +145,8 @@ def insert_pages(pages: Iterable[ScrapedPage]) -> int:
         session.commit()
     logger.info("Inserted %d new pages", count)
     return count
+
+
+
+
+

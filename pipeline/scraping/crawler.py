@@ -65,3 +65,8 @@ def crawl_site(start_url: str, max_pages: int | None = None, max_depth: int | No
                 queue.append((link, depth + 1, url))
 
     return results
+
+
+
+
+

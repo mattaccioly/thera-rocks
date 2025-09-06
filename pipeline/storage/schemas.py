@@ -27,3 +27,8 @@ class ScrapedPage(BaseModel):
     content_hash: str
     http_status: int
     referer_url: Optional[str] = None
+
+
+
+
+

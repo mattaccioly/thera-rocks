@@ -28,3 +28,4 @@ def classify_first_page(url: str, title: str, text_snippet: str, llm: GeminiClie
     reason = str(result.get("reason", ""))
     is_real = status == "real"
     return is_real, confidence, reason
+
